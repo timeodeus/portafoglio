@@ -43,6 +43,7 @@ html {
   html {
     font-size: 60%;
 }
+}
 
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
@@ -171,11 +172,28 @@ header p {
 
 /*Enlarging shift section at small screens to match header' increased height*/
 
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  .shift-section {
+	  height: 10rem;
+  }
+}
+
+/* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
+  .shift-section {
+	  height: 15rem;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
   .shift-section {
 	  height: 20rem;
   }
 }
+
 
 /* Welcome section */
 
@@ -194,7 +212,7 @@ header p {
 
   }
   
-@media (max-width: 61.25em) {
+@media (max-width: 75em) {
   .welcome-section {
 	  height: min-content;
 }
